@@ -1,0 +1,188 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    margin: 0 auto 30px auto;
+    width: 940px;
+}
+
+header a img{
+    position: absolute;
+    top: 36.1px;
+}
+
+.nav {
+    margin: 36px 0 0 212px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* === Apresentação === */
+.slogan {
+    margin: 6px auto 20px auto;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    width: 940px;
+    height: 366px;
+    
+}
+
+.slogan-content {
+    position: absolute;
+    width: 320px;
+    margin: 100px 60px;
+       
+}
+
+.slogan-content h1 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 38px;
+    margin-bottom: 10px;
+    width: 305px;
+}
+
+.slogan-content p {
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.7;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.slogan img {
+    margin: 66px 100px 0 624px;
+}
+
+.wrapper p{
+    width: 940px;
+    margin: 50px auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* === Menu === */
+.cards {
+    margin: 20px auto 0 auto;
+    max-width: 940px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.card-image img {
+    width: 300px;
+    height: 140px;
+    object-fit: fill;
+    border-radius: 15px;   
+}
+
+.card-content {
+    margin: 20px 0 5px 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.card-name {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777 ;
+    font-size: 14px;
+    
+}
+
+.footer {
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 64px;
+}
+
+.footer p {
+    width: 100%;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 23px; 
+}
+
+/* === Sobre === */
+.foodfy-content {
+    width: 940px;
+    margin: 0 auto 0 auto;
+}
+
+.title {
+    margin: 56px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.content p {
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* === Modal === */
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: 660px;
+    height: 413px;
+    border-radius: 16px;
+    margin: 20vh auto;
+}
+
+.modal .close-modal {
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+/* === Modal active === */
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    object-fit: scale-down;
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 30px auto;
+    
+}
