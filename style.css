@@ -163,13 +163,16 @@ header a img{
     height: 413px;
     border-radius: 16px;
     margin: 20vh auto;
+    text-align: center;
 }
 
 .modal .close-modal {
-    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     text-align: center;
-    bottom: 5px;
     cursor: pointer;
+    margin-top: 60px;
+    color: #999999;
 }
 
 /* === Modal active === */
@@ -178,11 +181,30 @@ header a img{
     visibility: visible;
 }
 
+.modal-image {
+    width: 660px;
+    height: 230px; 
+    margin-bottom: 20px;
+    
+}
+
 iframe {
-    object-fit: scale-down;
     width: 600px;
     height: 200px;
     border-radius: 15px;
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
     
 }
+
+.modal-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px; 
+}
+
+.modal-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    color: #777777;
+    margin-top: 5px;
+}
+
